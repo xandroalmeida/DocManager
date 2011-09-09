@@ -19,7 +19,7 @@ Atualmente apenas são aceitos as seguintes linguages de markup
 Itens desejados:
 
 * Continuar simples!
-* Permitir a criação e edição online dos documentos
+* Permitir a criação e -edição- online dos documentos
 * Tirar os scriplets das JSP (arghh)
 * Permitir a geração e visualizaçao de baselines, talvez usando o git
 * Permitir a conversao para PDF e se der para .doc

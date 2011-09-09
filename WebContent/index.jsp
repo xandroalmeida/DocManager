@@ -39,7 +39,7 @@
 			});
 			for (int c = 0; c < cdusDir.length; c++) {
 			%>
-			<li><a href="view_cdu.jsp?p=<%=projectsDir[i].getName()%>&m=<%=modulesDir[n].getName()%>&c=<%=cdusDir[c].getName()%>"><%=cdusDir[c].getName()%></a></li>
+			<li><a href="view.jsp?p=<%=projectsDir[i].getName()%>&m=<%=modulesDir[n].getName()%>&c=<%=cdusDir[c].getName()%>"><%=cdusDir[c].getName()%></a></li>
 			<% 
 			}
 		}

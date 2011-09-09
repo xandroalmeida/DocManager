@@ -9,7 +9,7 @@
 <script type="text/javascript" src="wiky.js"></script>
 <script type="text/javascript" src="textile.js"></script>
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type="text/css" media="print">
 .noprint {
 	display: none;
@@ -17,7 +17,9 @@
 </style>
 </head>
 <body>
-<a href="index.jsp" class="noprint">Voltar</a><br/>
+<a href="index.jsp" class="noprint">Back</a> 
+<a href="edit.jsp?p=<%=request.getParameter("p")%>&m=<%=request.getParameter("m")%>&c=<%=request.getParameter("c")%>">Edit</a><br/>
+
 	<% 
 	String base_document_directory = getServletContext(). getInitParameter("base_document_directory");
 	
